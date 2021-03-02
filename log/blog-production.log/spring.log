@@ -1,0 +1,6 @@
+2020-12-28 22:41:03.391  INFO 81932 --- [restartedMain] com.wwy.blog.BlogApplication             : Starting BlogApplication using Java 14.0.2 on wangwenyandeMacBook-Pro.local with PID 81932 (/Users/wangwy/IdeaProjects/blog/target/classes started by wangwy in /Users/wangwy/IdeaProjects/blog)
+2020-12-28 22:41:03.393  INFO 81932 --- [restartedMain] com.wwy.blog.BlogApplication             : The following profiles are active: production
+2020-12-28 22:41:04.959  WARN 81932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-28 22:41:05.125  WARN 81932 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-28 22:41:05.125  WARN 81932 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Unknown Template Mode 'HTML;'. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2020-12-28 22:41:05.221  INFO 81932 --- [restartedMain] com.wwy.blog.BlogApplication             : Started BlogApplication in 2.121 seconds (JVM running for 2.784)

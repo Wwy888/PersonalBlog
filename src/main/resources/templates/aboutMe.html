@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--移动端-->
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>关于</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+</head>
+<body>
+<!--导航-->
+<nav class="ui inverted attached segment m-shadow-small">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">关于</h2>
+            <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i> 首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i> 分类</a>
+            <a href="#" class=" m-item item m-mobile-hide"><i class="tags icon"></i> 标签</a>
+            <a href="#" class=" m-item item m-mobile-hide"><i class="tags icon"></i> 归档</a>
+            <a href="#" class="active m-item item m-mobile-hide"><i class="info icon"></i> 关于</a>
+            <div class="right m-item item m-mobile-hide">
+                <div class="ui icon inverted transparent input">
+                    <input type="text" placeholder="Search">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui black icon button m-right-top m-mobile-show menu toggle ">
+        <i class="sidebar icon "></i>
+    </a>
+</nav>
+
+<!--content-->
+<div class="m-container-small m-padded-tb-large ">
+    <div class="ui container">
+        <div class="ui stackable grid">
+            <div class="eleven wide column">
+                <div class="ui segment">
+                    <img src="https://picsum.photos/800/600?image=1032" alt="" class="ui rounded image">
+                </div>
+            </div>
+            <div class="five wide column">
+                <div class="ui top attached segment">
+                    <div class="ui header">
+                        About Me
+                    </div>
+                </div>
+                <div class="ui attached segment">
+                    <p class="m-text">昂那饿访问佛暗示的看法，阿文哦if你噶离开你噶额外i个看到算法i</p>
+                    <p class="m-text">阿斯顿发i哦昂拉坑，阿瑟of i啊伪球迷能背诵佩服你。阿文坡跟弄啊</p>
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui orange basic left pointing label">
+                        Coding
+                    </div>
+                    <div class="ui orange basic left pointing label">
+                        Writing
+                    </div>
+                    <div class="ui orange basic left pointing label">
+                        Thinking
+                    </div>
+                    <div class="ui orange basic left pointing label">
+                        Sporting
+                    </div>
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">
+                        Java
+                    </div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">
+                        JavaScript
+                    </div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">
+                        SQL
+                    </div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">
+                        Spring
+                    </div>
+                </div>
+                <div class="ui attached segment">
+                    <a href="#" class="ui circular icon button">
+                        <i class="github icon"></i>
+                    </a>
+                    <a href="#" class="ui weChat circular icon button">
+                        <i class="weixin icon">
+                        </i>
+                    </a>
+                    <a href="#" class="ui qq circular icon button" data-content="15169119507"
+                       data-position="bottom center">
+                        <i class="qq icon">
+                        </i>
+                    </a>
+                </div>
+                <div class="ui weChatQR flowing popup transition hidden">
+                    <img src="../static/images/dog.jpeg" alt="" class="ui rounded image"
+                         style="width:110px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--footer-->
+<footer class="ui inverted vertical segment">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="../static/images/dog.jpeg" class="ui rounded image" alt="" style="width:10em">
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">用户故事</a>
+                    <a href="#" class="item">用户故事</a>
+                    <a href="#" class="item">用户故事</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">用户故事</a>
+                    <a href="#" class="item">用户故事</a>
+                    <a href="#" class="item">用户故事</a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header">最新博客</h4>
+                <p>handsome Wenyan Wang</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p>Copyright</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+    $('.qq').popup();
+    $('.weChat').popup({
+        popup: $('.weChatQR'),
+        on: 'hover',
+        position: 'bottom center'
+    });
+</script>
+</body>
+</html>
+
+</body>
+</html>
